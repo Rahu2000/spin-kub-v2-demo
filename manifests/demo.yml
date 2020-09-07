@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: index.docker.io/Rahu2000/spin-kub-v2-demo
+        image: rahu2000/spin-kub-v2-demo
         ports:
         - containerPort: 8000
         readinessProbe:
